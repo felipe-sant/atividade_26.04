@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    padding: 20px;
+}
+
+form {
+    background-color: lightgray;
+    margin: auto;
+    border-radius: 20px;
+    width: 500px;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    height: 15px;
+}
+
+button {
+    margin: 20px 0px 10px 0px;
+    width: 120px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
