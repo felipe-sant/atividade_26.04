@@ -2,6 +2,14 @@ from flask import Flask, request, render_template
 
 app = Flask(__name__, static_folder="./static", template_folder="./template")
 
+@app.route("/")
+def index():
+    return render_template("index.html")
+
+@app.route("/foto")
+def foto():
+    return render_template("foto.html")
+
 @app.route("/form", methods=["POST", "GET"])
 def form():
     if request.method == "POST":
